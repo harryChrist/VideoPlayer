@@ -1,0 +1,100 @@
+.title {
+    color: white;
+}
+
+.controlsWrapper {
+    visibility: visible;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.controlsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.midContainer {
+    display: flex;
+    direction: row;
+    height: 80%;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.controlIcons {
+    color: #777;
+    font-size: 10;
+    transform: "scale(0.9)";
+}
+
+.controlIcons:hover {
+    color: #fff;
+    transform: "scale(1)";
+}
+
+.TopGrid{
+    display: grid;
+    direction: row;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto;
+}
+.TopGridItem {
+    font-size: 20px;
+    text-align: center;
+}
+
+.BotGrid {
+    display: grid;
+    direction: row;
+    flex:1;
+    flex-direction: row;
+    align-items: center;
+    padding: 16;
+}
+
+.BotGridItem {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;    
+}
+
+.BotButtons {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.SpeedRating {
+    display: grid;
+    flex-direction: column-reverse;
+}
+
+.bottomIcons {
+    color:#777;
+}
+.bottomIcons:hover {
+    color:#fff;
+}
+
+.volumeSlider {
+    width: 10px;
+    max-width: 150px;
+}
