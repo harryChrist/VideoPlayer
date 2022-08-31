@@ -11,19 +11,19 @@
 and that's it.
 
 ## Dependencias Used:
-"dependencies": {
-    "@emotion/react": "^11.10.4",
-    "@emotion/styled": "^11.10.4",
-    "@mui/icons-material": "^5.10.3",
-    "@mui/material": "^5.10.3",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-player": "^2.10.1", <-Important->
-    "react-scripts": "5.0.1",
-    "screenfull": "^6.0.2",
-    "web-vitals": "^2.1.4"
-},
+"dependencies": {<br>
+    "@emotion/react": "^11.10.4",<br>
+    "@emotion/styled": "^11.10.4",<br>
+    "@mui/icons-material": "^5.10.3",<br>
+    "@mui/material": "^5.10.3",<br>
+    "@testing-library/jest-dom": "^5.16.5",<br>
+    "@testing-library/react": "^13.3.0",<br>
+    "@testing-library/user-event": "^13.5.0",<br>
+    "prop-types": "^15.8.1",<br>
+    "react": "^18.2.0",<br>
+    "react-dom": "^18.2.0",<br>
+    "react-player": "^2.10.1", <-Important-><br>
+    "react-scripts": "5.0.1",<br>
+    "screenfull": "^6.0.2",<br>
+    "web-vitals": "^2.1.4"<br>
+},<br>
